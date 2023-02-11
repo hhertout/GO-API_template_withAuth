@@ -1,6 +1,6 @@
 # Template for Go API
 
-<img src="https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/https://media.jfrog.com/wp-content/uploads/2020/09/16180948/Gorm-863x300-1.png/mxw_1024,f_auto" />
+<img src="https://miro.medium.com/max/921/1*HtCjHzGwf6iWNqXu5Cndsg.png" />
 
 Template for Go Api develop with Gin & GORM
 
