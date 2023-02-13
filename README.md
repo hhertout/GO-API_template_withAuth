@@ -9,13 +9,21 @@ Template for Go Api develop with Gin & GORM
 
 Sign up & Auth is fonctionnal.<br>
 
-⚠️Cors and proxies need to be improve and correctly setup for a prod usage.⚠️
+⚠️Cors and proxies need to be improve and correctly setup for a prod usage.
 
 ## Installation
 
 Make sure GO is correctly installed on your device.
 As always, the folder should be located in the src folder of your personnal go directory.
 
+⚠️You need to reset the import state in all the file to get the correct import relative to your ~goPath<br>
+
+Native build is not given there.
+
+Then : 
+
 - 1 - Create your database
 - 2 - Create your .env file from the .env.sample
 - 3 - run <code>npm run dev</code> or <code>go build</code> && <code>go run .</code> to run the server. 
+
+You're now ready to Go ! 🚀
