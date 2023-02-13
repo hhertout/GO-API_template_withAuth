@@ -9,7 +9,7 @@ Template for Go Api develop with Gin & GORM
 
 Sign up & Auth is fonctionnal.<br>
 
-Cors and proxies need to be improve and correctly setup for a prod usage.
+⚠️Cors and proxies need to be improve and correctly setup for a prod usage.⚠️
 
 ## Installation
 
