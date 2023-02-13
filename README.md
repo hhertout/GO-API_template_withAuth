@@ -1,4 +1,4 @@
-# Template for Go API
+# Template for API ~ GO 
 
 <img src="https://miro.medium.com/max/921/1*HtCjHzGwf6iWNqXu5Cndsg.png" />
 
