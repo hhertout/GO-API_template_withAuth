@@ -14,9 +14,8 @@ Sign up & Auth is fonctionnal.<br>
 ## Installation
 
 Make sure GO is correctly installed on your device.
-As always, the folder should be located in the src folder of your personnal go directory.
 
-⚠️You need to reset the import state in all the file to get the correct import relative to your ~goPath<br>
+⚠️You probably need to reset the import state in all the file to get the correct import relative to your ~goPath<br>
 
 Native build is not given there.
 
