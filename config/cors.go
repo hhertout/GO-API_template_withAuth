@@ -1,15 +1,14 @@
 package config
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+)
 
-func CORSConfig() gin.HandlerFunc {
-	return func(c *gin.Context) {
-
-		c.Header("Access-Control-Allow-Origin", "*")
-		c.Header("Access-Control-Allow-Credentials", "true")
-		c.Header("Access-Control-Allow-Headers", "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With")
-		c.Header("Access-Control-Allow-Methods", "POST, DELETE, GET, PUT")
-
-		c.Next()
-	}
+func CORSConfig(router *gin.Engine) {
+	router.SetTrustedProxies([]string{"*"})
+	config := cors.DefaultConfig()
+	config.AllowOrigins = []string{"http://localhost:5173"}
+	config.AllowCredentials = true
+	router.Use(cors.New(config))
 }

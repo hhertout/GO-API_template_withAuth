@@ -10,8 +10,8 @@ import (
 
 func Routes() {
 	router := gin.New()
-	router.SetTrustedProxies([]string{"*"})
-	router.Use(config.CORSConfig())
+
+	config.CORSConfig(router)
 
 	router.POST("/signup", controllers.Signup)
 	router.POST("/login", controllers.Login)
